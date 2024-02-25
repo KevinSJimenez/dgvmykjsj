@@ -34,7 +34,7 @@ $(window).scroll(function() {
     if (scr >= 500) {
         E.css({
             'transition': 'all .5s 1s',
-            'top': '-550px',
+            'top': '-750px',
             'height': '600px'
         });
         P.css({
