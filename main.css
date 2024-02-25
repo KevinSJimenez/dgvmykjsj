@@ -154,10 +154,16 @@ body {
 
 .fondoimagen {
     width: 100px;
-    margin: 0;
+    margin: 0 auto;
+    display: flex;
     padding: 0;
     border-radius: 40%;
     height: 100px;
+    margin-bottom: 10px;
+}
+
+.textoocult {
+    display: none;
 }
 
 #carta p {
@@ -176,4 +182,8 @@ body {
     float: left;
     line-height: 1.2em;
     padding: 10px 10px 0 0;
+}
+
+* {
+    text-align: justify;
 }
