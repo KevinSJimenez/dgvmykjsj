@@ -1,5 +1,3 @@
-// autor: Marco Barría
-
 $(window).scroll(function() {
     var scr = $(window).scrollTop(),
         C = $('#contenedor'),
@@ -37,7 +35,7 @@ $(window).scroll(function() {
         E.css({
             'transition': 'all .5s 1s',
             'top': '-550px',
-            'height': '500px'
+            'height': '600px'
         });
         P.css({
             'transition': 'all 1s',
